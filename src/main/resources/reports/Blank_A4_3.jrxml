@@ -30,9 +30,9 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="79" splitType="Stretch">
+		<band height="32" splitType="Stretch">
 			<staticText>
-				<reportElement x="140" y="30" width="120" height="30" uuid="129bf88f-5dbc-4dbd-be68-78e918f932b2"/>
+				<reportElement x="130" y="0" width="120" height="30" uuid="129bf88f-5dbc-4dbd-be68-78e918f932b2"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="20"/>
 				</textElement>
@@ -41,9 +41,9 @@
 		</band>
 	</title>
 	<pageHeader>
-		<band height="43" splitType="Stretch">
+		<band height="36" splitType="Stretch">
 			<staticText>
-				<reportElement x="120" y="0" width="160" height="30" uuid="eb2052f0-5d25-481b-af66-5b5fcd4adf81"/>
+				<reportElement x="120" y="3" width="160" height="27" uuid="eb2052f0-5d25-481b-af66-5b5fcd4adf81"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="18"/>
 				</textElement>
@@ -52,27 +52,27 @@
 		</band>
 	</pageHeader>
 	<columnHeader>
-		<band height="59" splitType="Stretch">
+		<band height="36" splitType="Stretch">
 			<staticText>
-				<reportElement x="10" y="19" width="55" height="30" uuid="13ec6dc7-db06-4b8c-8124-423a2cde20e2"/>
+				<reportElement x="10" y="0" width="55" height="30" uuid="13ec6dc7-db06-4b8c-8124-423a2cde20e2"/>
 				<text><![CDATA[Code]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="90" y="20" width="60" height="30" uuid="83f95743-fb0b-41b8-bf85-9a4d151433dd"/>
+				<reportElement x="90" y="0" width="60" height="30" uuid="83f95743-fb0b-41b8-bf85-9a4d151433dd"/>
 				<text><![CDATA[Description]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="191" y="19" width="69" height="30" uuid="a39c4c3f-29d9-43a7-9264-282fb1570e73"/>
+				<reportElement x="190" y="0" width="69" height="30" uuid="a39c4c3f-29d9-43a7-9264-282fb1570e73"/>
 				<text><![CDATA[Unit Price]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="290" y="20" width="64" height="30" uuid="7c53596d-dbff-459a-a519-7a48dcb273c0"/>
+				<reportElement x="290" y="0" width="64" height="30" uuid="7c53596d-dbff-459a-a519-7a48dcb273c0"/>
 				<text><![CDATA[QtyOnHand]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="97" splitType="Stretch">
+		<band height="35" splitType="Stretch">
 			<textField>
 				<reportElement x="10" y="0" width="60" height="30" uuid="f2df3158-a53f-4dce-9056-5bd26a451516"/>
 				<textFieldExpression><![CDATA[$F{code}]]></textFieldExpression>
@@ -92,12 +92,12 @@
 		</band>
 	</detail>
 	<columnFooter>
-		<band height="45" splitType="Stretch"/>
+		<band height="29" splitType="Stretch"/>
 	</columnFooter>
 	<pageFooter>
-		<band height="54" splitType="Stretch"/>
+		<band height="39" splitType="Stretch"/>
 	</pageFooter>
 	<summary>
-		<band height="42" splitType="Stretch"/>
+		<band height="18" splitType="Stretch"/>
 	</summary>
 </jasperReport>

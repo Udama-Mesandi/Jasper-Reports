@@ -39,9 +39,9 @@
 		<band splitType="Stretch"/>
 	</background>
 	<title>
-		<band height="79" splitType="Stretch">
+		<band height="35" splitType="Stretch">
 			<staticText>
-				<reportElement x="140" y="40" width="100" height="30" uuid="18b65659-7814-4e75-86a6-13af10e568e4"/>
+				<reportElement x="145" y="0" width="100" height="30" uuid="18b65659-7814-4e75-86a6-13af10e568e4"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="20"/>
 				</textElement>
@@ -61,52 +61,52 @@
 		</band>
 	</pageHeader>
 	<columnHeader>
-		<band height="58" splitType="Stretch">
+		<band height="32" splitType="Stretch">
 			<staticText>
-				<reportElement x="10" y="20" width="60" height="30" uuid="28b153be-bb87-449d-b6a2-f3f75e1bd767"/>
+				<reportElement x="10" y="0" width="60" height="30" uuid="28b153be-bb87-449d-b6a2-f3f75e1bd767"/>
 				<text><![CDATA[Id]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="90" y="20" width="55" height="30" uuid="100a2884-c7d7-4446-9c5a-03714f881e2a"/>
+				<reportElement x="90" y="0" width="55" height="30" uuid="100a2884-c7d7-4446-9c5a-03714f881e2a"/>
 				<text><![CDATA[Name]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="190" y="20" width="60" height="30" uuid="a341aa19-2189-4b2a-b0cf-be1b96e89dba"/>
+				<reportElement x="190" y="0" width="60" height="30" uuid="a341aa19-2189-4b2a-b0cf-be1b96e89dba"/>
 				<text><![CDATA[Address]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="290" y="20" width="56" height="30" uuid="35c6c325-8657-47c0-9ee4-c6f824f24c18"/>
+				<reportElement x="290" y="0" width="56" height="30" uuid="35c6c325-8657-47c0-9ee4-c6f824f24c18"/>
 				<text><![CDATA[Salary]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="64" splitType="Stretch">
+		<band height="36" splitType="Stretch">
 			<textField>
-				<reportElement x="0" y="10" width="60" height="30" uuid="19c4ba05-7e52-4751-ae9b-f4589100ae49"/>
+				<reportElement x="0" y="0" width="60" height="30" uuid="19c4ba05-7e52-4751-ae9b-f4589100ae49"/>
 				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="90" y="10" width="70" height="30" uuid="b4af7e89-b29e-4093-9e02-23543382b00c"/>
+				<reportElement x="90" y="-2" width="70" height="30" uuid="b4af7e89-b29e-4093-9e02-23543382b00c"/>
 				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="200" y="10" width="60" height="30" uuid="c8586150-9838-4a79-9d76-76e7ef05123a"/>
+				<reportElement x="200" y="0" width="60" height="30" uuid="c8586150-9838-4a79-9d76-76e7ef05123a"/>
 				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="290" y="10" width="79" height="30" uuid="bb6ecadd-c759-4f69-a51f-38d4a25bd10b"/>
+				<reportElement x="290" y="0" width="79" height="30" uuid="bb6ecadd-c759-4f69-a51f-38d4a25bd10b"/>
 				<textFieldExpression><![CDATA[$F{salary}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
 	<columnFooter>
-		<band height="45" splitType="Stretch"/>
+		<band height="26" splitType="Stretch"/>
 	</columnFooter>
 	<pageFooter>
-		<band height="50" splitType="Stretch">
+		<band height="43" splitType="Stretch">
 			<staticText>
-				<reportElement x="140" y="20" width="100" height="30" uuid="986c25e4-4c6b-4d84-b2f9-c9c6edcb4b3c"/>
+				<reportElement x="140" y="10" width="100" height="30" uuid="986c25e4-4c6b-4d84-b2f9-c9c6edcb4b3c"/>
 				<textElement>
 					<font size="16"/>
 				</textElement>
